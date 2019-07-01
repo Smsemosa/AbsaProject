@@ -164,6 +164,7 @@ public class EndUser_Test1
             assertEquals(dataLoaded.contains(getName),true);
         }
 
+        driver.close();
 
 
 
