@@ -1,0 +1,89 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "DOG API TEST",
+        "description": "",
+        "id": "api-functionality;dog-api-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 449508822,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "site -  https://dog.ceo/api/",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://dog.ceo/api/",
+                  "offset": 8
+                }
+              ],
+              "location": "StepDef_Test2.site_https_dog_ceo_dog_api(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3431541029,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Perform an API request to produce a list of all dog breeds",
+            "match": {
+              "location": "StepDef_Test2.perform_an_API_request_to_produce_a_list_of_all_dog_breeds()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 575716,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Using code verify retriever breed is within the list",
+            "match": {
+              "location": "StepDef_Test2.using_code_verify_retriever_breed_is_within_the_list()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1118325509,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Perform an API request to produce a list of sub-breeds for retriever",
+            "match": {
+              "location": "StepDef_Test2.perform_an_API_request_to_produce_a_list_of_sub_breeds_for_retriever()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1176107002,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Perform an API request to produce a random image  link for the subbreed golden",
+            "match": {
+              "location": "StepDef_Test2.perform_an_API_request_to_produce_a_random_image_link_for_the_subbreed_golden()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "API Functionality",
+    "description": "",
+    "id": "api-functionality",
+    "keyword": "Feature",
+    "uri": "TestTwo.feature",
+    "tags": []
+  }
+]

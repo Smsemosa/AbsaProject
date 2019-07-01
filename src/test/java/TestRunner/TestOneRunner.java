@@ -12,8 +12,8 @@ import static org.junit.Assert.assertTrue;
 @CucumberOptions
         (features ="classpath:TestOne.feature", //this is the file bound to test runner
         glue =  {"StepDef"},  //folder that conatains the feature file bound to this test runner
-                plugin = { "pretty", "json:target/cucumber-reports/Cucumber.json",
-                        "junit:target/cucumber-reports/Cucumber.xml",
+                plugin = { "pretty", "json:target/cucumber-reports/testone.json",
+                        "junit:target/cucumber-reports/testone.xml",
                         "html:target/cucumber-reports"}, //format the repoert are to be store  from serenity
         monochrome = true)
 public class TestOneRunner

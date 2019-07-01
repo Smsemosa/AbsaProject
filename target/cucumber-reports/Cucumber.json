@@ -4,86 +4,136 @@
     "elements": [
       {
         "line": 2,
-        "name": "DOG API TEST",
+        "name": "Successful Login with to google website",
         "description": "",
-        "id": "api-functionality;dog-api-test",
+        "id": "login-functionality;successful-login-with-to-google-website",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 370130026,
+              "duration": 8926708886,
               "status": "passed"
             },
             "line": 3,
-            "name": "site -  https://dog.ceo/api/",
+            "name": "Navigate to - http://www.way2automation.com/angularjs-protractor/webtables/",
             "match": {
               "arguments": [
                 {
-                  "val": "https://dog.ceo/api/",
-                  "offset": 8
+                  "val": "http://www.way2automation.com/angularjs-protractor/webtables/",
+                  "offset": 14
                 }
               ],
-              "location": "StepDef_Test2.site_https_dog_ceo_dog_api(String)"
+              "location": "StepDef_Test1.navigate_to_http_www_way_automation_com_angularjs_protractor_webtables(String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 3291147745,
+              "duration": 122231501,
               "status": "passed"
             },
             "line": 4,
-            "name": "Perform an API request to produce a list of all dog breeds",
+            "name": "Validate that you are on the User List Table",
             "match": {
-              "location": "StepDef_Test2.perform_an_API_request_to_produce_a_list_of_all_dog_breeds()"
+              "location": "StepDef_Test1.validate_that_you_are_on_the_User_List_Table()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 565476,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Using code verify retriever breed is within the list",
-            "match": {
-              "location": "StepDef_Test2.using_code_verify_retriever_breed_is_within_the_list()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1003648854,
+              "duration": 795875,
               "status": "passed"
             },
             "line": 6,
-            "name": "Perform an API request to produce a list of sub-breeds for retriever",
+            "name": "Click Add user",
             "match": {
-              "location": "StepDef_Test2.perform_an_API_request_to_produce_a_list_of_sub_breeds_for_retriever()"
+              "location": "StepDef_Test1.click_Add_user()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1023374514,
+              "duration": 877796,
               "status": "passed"
             },
             "line": 7,
-            "name": "Perform an API request to produce a random image  link for the subbreed golden",
+            "name": "Add users with the following details:",
             "match": {
-              "location": "StepDef_Test2.perform_an_API_request_to_produce_a_random_image_link_for_the_subbreed_golden()"
+              "location": "StepDef_Test1.add_users_with_the_following_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3532334516,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Ensure that User Name is unique on each run",
+            "match": {
+              "location": "StepDef_Test1.ensure_that_User_Name_is_unique_on_each_run(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "fName",
+                  "lName",
+                  "uName",
+                  "uPass",
+                  "customerType",
+                  "role",
+                  "email",
+                  "cell"
+                ]
+              },
+              {
+                "cells": [
+                  "FName1",
+                  "LName1",
+                  "User1",
+                  "Pass1",
+                  "Company AAA",
+                  "Admin",
+                  "admin@mail.com",
+                  "082555"
+                ]
+              },
+              {
+                "cells": [
+                  "FName2",
+                  "LName2",
+                  "User2",
+                  "Pass2",
+                  "Company BBB",
+                  "Customer",
+                  "customer@mail.com",
+                  "083444"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 185912942,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Ensure that your users are added to the list",
+            "match": {
+              "location": "StepDef_Test1.ensure_that_your_users_are_added_to_the_list()"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "API Functionality",
+    "name": "Login Functionality",
     "description": "",
-    "id": "api-functionality",
+    "id": "login-functionality",
     "keyword": "Feature",
-    "uri": "TestTwo.feature",
+    "uri": "TestOne.feature",
     "tags": []
   }
 ]

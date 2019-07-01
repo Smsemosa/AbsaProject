@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="14.558011">
-<testcase classname="Login Functionality" name="Successful Login with to google website" time="14.558011">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="23.041525">
+<testcase classname="automation UI example" name="way2automation website" time="23.041525">
 <system-out><![CDATA[Given Navigate to - http://www.way2automation.com/angularjs-protractor/webtables/.passed
 Then Validate that you are on the User List Table...........................passed
 Then Click Add user.........................................................passed

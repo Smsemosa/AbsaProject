@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="7.318128">
+<testcase classname="API Functionality" name="DOG API TEST" time="7.318128">
+<system-out><![CDATA[Given site -  https://dog.ceo/api/..........................................passed
+Then Perform an API request to produce a list of all dog breeds.............passed
+Then Using code verify retriever breed is within the list...................passed
+Then Perform an API request to produce a list of sub-breeds for retriever...passed
+Then Perform an API request to produce a random image  link for the subbreed golden.passed
+]]></system-out>
+</testcase>
+</testsuite>

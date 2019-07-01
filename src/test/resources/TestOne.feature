@@ -1,5 +1,5 @@
-Feature: Login Functionality
-  Scenario: Successful Login with to google website
+Feature: automation UI example
+  Scenario: way2automation website
     Given  Navigate to - http://www.way2automation.com/angularjs-protractor/webtables/
     Then Validate that you are on the User List Table
 

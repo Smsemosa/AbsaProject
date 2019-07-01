@@ -4,15 +4,15 @@
     "elements": [
       {
         "line": 2,
-        "name": "Successful Login with to google website",
+        "name": "way2automation website",
         "description": "",
-        "id": "login-functionality;successful-login-with-to-google-website",
+        "id": "automation-ui-example;way2automation-website",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 8937896089,
+              "duration": 18208803900,
               "status": "passed"
             },
             "line": 3,
@@ -30,7 +30,7 @@
           },
           {
             "result": {
-              "duration": 119413794,
+              "duration": 107757257,
               "status": "passed"
             },
             "line": 4,
@@ -42,10 +42,10 @@
           },
           {
             "result": {
-              "duration": 320166207,
+              "duration": 698596,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "Click Add user",
             "match": {
               "location": "StepDef_Test1.click_Add_user()"
@@ -54,10 +54,10 @@
           },
           {
             "result": {
-              "duration": 119757972,
+              "duration": 647965,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "Add users with the following details:",
             "match": {
               "location": "StepDef_Test1.add_users_with_the_following_details()"
@@ -66,22 +66,60 @@
           },
           {
             "result": {
-              "duration": 2151276132,
+              "duration": 3381196055,
               "status": "passed"
             },
-            "line": 7,
-            "name": "Ensure that User Name (*) is unique on each run",
+            "line": 8,
+            "name": "Ensure that User Name is unique on each run",
             "match": {
-              "location": "StepDef_Test1.ensure_that_User_Name_is_unique_on_each_run()"
+              "location": "StepDef_Test1.ensure_that_User_Name_is_unique_on_each_run(DataTable)"
             },
+            "rows": [
+              {
+                "cells": [
+                  "fName",
+                  "lName",
+                  "uName",
+                  "uPass",
+                  "customerType",
+                  "role",
+                  "email",
+                  "cell"
+                ]
+              },
+              {
+                "cells": [
+                  "FName1",
+                  "LName1",
+                  "User1",
+                  "Pass1",
+                  "Company AAA",
+                  "Admin",
+                  "admin@mail.com",
+                  "082555"
+                ]
+              },
+              {
+                "cells": [
+                  "FName2",
+                  "LName2",
+                  "User2",
+                  "Pass2",
+                  "Company BBB",
+                  "Customer",
+                  "customer@mail.com",
+                  "083444"
+                ]
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 51140281,
+              "duration": 212562550,
               "status": "passed"
             },
-            "line": 8,
+            "line": 12,
             "name": "Ensure that your users are added to the list",
             "match": {
               "location": "StepDef_Test1.ensure_that_your_users_are_added_to_the_list()"
@@ -91,9 +129,9 @@
         ]
       }
     ],
-    "name": "Login Functionality",
+    "name": "automation UI example",
     "description": "",
-    "id": "login-functionality",
+    "id": "automation-ui-example",
     "keyword": "Feature",
     "uri": "TestOne.feature",
     "tags": []

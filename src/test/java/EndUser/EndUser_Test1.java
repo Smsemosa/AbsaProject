@@ -81,7 +81,8 @@ public class EndUser_Test1
 
             //switch to active element
                     driver.switchTo().activeElement();
-                    String modaltext  = driver.findElement(By.xpath("/html/body/div[3]/div[1]/h3")).getText();
+                    //String modaltext  = driver.findElement(By.xpath("/html/body/div[3]/div[1]/h3")).getText();
+                    String modaltext  = driver.findElement(By.xpath("//h3[contains(text(),'Add User')]")).getText();
                     System.out.println("Page Modal text : "+ modaltext);
                     assertEquals("Add User",modaltext);
 
