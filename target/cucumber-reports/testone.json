@@ -1,0 +1,101 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Successful Login with to google website",
+        "description": "",
+        "id": "login-functionality;successful-login-with-to-google-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8937896089,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Navigate to - http://www.way2automation.com/angularjs-protractor/webtables/",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.way2automation.com/angularjs-protractor/webtables/",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDef_Test1.navigate_to_http_www_way_automation_com_angularjs_protractor_webtables(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 119413794,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Validate that you are on the User List Table",
+            "match": {
+              "location": "StepDef_Test1.validate_that_you_are_on_the_User_List_Table()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 320166207,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click Add user",
+            "match": {
+              "location": "StepDef_Test1.click_Add_user()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 119757972,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Add users with the following details:",
+            "match": {
+              "location": "StepDef_Test1.add_users_with_the_following_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2151276132,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Ensure that User Name (*) is unique on each run",
+            "match": {
+              "location": "StepDef_Test1.ensure_that_User_Name_is_unique_on_each_run()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 51140281,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Ensure that your users are added to the list",
+            "match": {
+              "location": "StepDef_Test1.ensure_that_your_users_are_added_to_the_list()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "TestOne.feature",
+    "tags": []
+  }
+]
